@@ -1,0 +1,26 @@
+{
+	"name": "mern-auth-sahand",
+	"version": "1.0.0",
+	"description": "",
+	"type": "module",
+	"main": "index.js",
+	"scripts": {
+		"dev": "nodemon api/index.js",
+		"start": "node api/index.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/umairahmed88/mern-auth-with-sahand.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/umairahmed88/mern-auth-with-sahand/issues"
+	},
+	"homepage": "https://github.com/umairahmed88/mern-auth-with-sahand#readme",
+	"dependencies": {
+		"express": "^4.18.2",
+		"nodemon": "^3.0.1"
+	}
+}
