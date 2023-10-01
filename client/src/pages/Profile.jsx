@@ -67,7 +67,7 @@ const Profile = () => {
 				request.resource.contentType.matches('image/.*') */}
 
 				<img
-					src={currentUser.profilePicture}
+					src={formData.profilePicture || currentUser.profilePicture}
 					alt='profile'
 					className='h-24 w-24 mt-2 self-center cursor-pointer rounded-full object-cover'
 					onClick={() => fileRef.current.click()}
